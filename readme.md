@@ -72,32 +72,3 @@ Contents: Base64-encoded public keys, one per line.
 Purpose: For verification and identity.
 
 Usage: Safe to share for verifying signatures.
-
-### ✅ oct_address.txt
-Contents: All wallet addresses, one per line.
-
-Purpose: Receiving funds.
-
-Usage: Can be shared freely.
-
-### ✅ Address format
-Addresses are derived like this:
-
-[prefix] + Base58(SHA256(public_key))
-
-octEbBDKmWVuwLDUycmS5AWznogS1fEu5QtkNyATWzuurKe
-⚠️ Security Notice
-Private keys and mnemonics are sensitive.
-
-Anyone with these files can access and move your funds.
-
-Store them securely (e.g., encrypted disk, offline storage).
-
-### 💡 Recommended Uses
-Generating batches of wallets for user onboarding.
-
-Cold-storage backups.
-
-Internal audits.
-
-Integration with other systems needing pre-generated addresses.
