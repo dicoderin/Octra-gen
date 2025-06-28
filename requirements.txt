@@ -1,0 +1,4 @@
+bip-utils
+pynacl
+base58
+rich
