@@ -64,7 +64,7 @@ if __name__ == "__main__":
     print_banner()
     try:
         count = int(input("Number of wallets to generate: ").strip())
-        prefix = input("Address prefix (e.g. lumera, octra, etc.) ").strip()
+        prefix = input("Address prefix (e.g. oct, etc.) ").strip()
         if not prefix:
             raise ValueError("Prefix tidak boleh kosong")
         if count < 1:
